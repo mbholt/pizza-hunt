@@ -1,5 +1,4 @@
-const res = require('express/lib/response');
-const { Pizza } = require('./models');
+const { Pizza } = require('../models');
 
 const pizzaController = {
     // get all
@@ -62,4 +61,4 @@ const pizzaController = {
     }
 };
 
-moduole.exports = pizzaController;
+module.exports = pizzaController;
